@@ -8,30 +8,59 @@ During my advertising and marketing internship at Onegona, I researched prospect
 
 Feria SOStenible brought sustainable products and responsible consumption initiatives to a public audience in Panama City. The commercial challenge was to identify relevant organizations for the fair and give the team a way to decide which prospects to review first. [Ciudad del Saber event listing](https://ciudaddelsaber.org/eventos/feria-sostenible)
 
-## My Contribution at Onegona
-
-I manually reviewed sustainability-related profiles, recorded prospect information in Excel, and grouped prospects by area of activity for outreach planning. The workbook records each prospect’s sustainability category and a relevance field. The category analysis below uses the category field. The preserved files do not establish a consistent scoring rule for the relevance field.
-
-The campaign materials also describe plans for positioning the fair through content, digital promotion, and audience engagement. Those plans provide context for the research. The findings below come from the prospect workbook.
-
-## Analytical Workflow
+## Data Sources
 
 | Source | Scope | Use in this case |
 | --- | --- | --- |
 | General prospect workbook, version dated February 24, 2025 | 99 prospect records in `Sheet1 verificados` | Earlier version used to check which records carried forward. |
 | Prospect workbook, version dated February 27, 2025 | 114 prospect records in `Sheet1 verificados`, rows 2–115 | Source for the chart. The 18 rows in `Sheet2 sin verificar` are outside this count. |
 
-For this case study, each populated row in the verified worksheet counts as one prospect. Duplicate checks used normalized names and Instagram profile fields. Matching the two versions on the normalized profile field showed that all 99 earlier records carried forward and 15 records were added. Each record contributes to one category. Case, spelling, and accent variants were combined. Clean energy and renewable energy remain separate because the workbook labels them separately.
+The campaign report and presentation provide context on the fair’s positioning and promotion plans. The workbook supplies the prospect records used in the analysis.
 
-Here, **verified** refers to the workbook tab used for the analysis. The chart describes research coverage. Participation and outreach outcomes would require separate records.
+## Objectives
 
-## Key Findings
+- Organize the research on potential exhibitors and strategic partners by area of activity.
+- Describe which sustainability categories had the most research coverage and where additional prospect research could broaden the list.
+
+## Analytical Workflow
+
+### Exhibitor Prospect Research and Segmentation
+
+#### Research
+
+At Onegona, I manually reviewed sustainability-related profiles to identify organizations that could be considered for exhibitor or partner outreach.
+
+#### Data Preparation and Classification
+
+I recorded prospect information in Excel and grouped prospects by area of activity. For this case study, duplicate checks used normalized names and Instagram profile fields. Case, spelling, and accent variants in category labels were combined. Clean energy and renewable energy were kept separate because the workbook labels them separately.
+
+#### Descriptive Analysis
+
+The analysis counts one prospect record per populated row in `Sheet1 verificados`, with one category per record. The two workbook versions were compared using the normalized profile field. All 99 earlier records carried forward and the later version added 15.
+
+#### Visualization
+
+The horizontal bar chart compares the number of records across the eight sustainability categories in the later workbook.
+
+## Findings
+
+Recycling through transformation (24), biodegradable products (22), and circular economy (20) accounted for **66 of 114 researched prospect records**. Clean energy (2) and electric mobility (1) had the fewest records in the workbook.
 
 <img src="images/01-researched-prospects-by-category.png" alt="Horizontal bar chart of 114 researched prospects. Recycling through transformation 24, biodegradable products 22, circular economy 20, sustainability services 17, recycling by volume 14, renewable energy 14, clean energy 2, and electric mobility 1." width="800">
 
-Recycling through transformation, biodegradable products, and circular economy accounted for **66 of 114 records**. The team could use those categories as starting points for reviewing outreach prospects. If the fair wanted broader coverage, clean energy and electric mobility were categories where the team could research more organizations. The counts describe the workbook’s research coverage. Assessing market size or demand would require a different source.
+## Recommendations
 
-## Portfolio Extension | Measuring Exhibitor Interest
+- Use the three categories with the most records as starting points for reviewing potential exhibitors and partners for outreach.
+- If broader coverage is a goal, research additional organizations in clean energy and electric mobility before drawing conclusions about those categories.
+
+## Limitations
+
+- **Researched prospects** are records in the workbook. The word *verified* refers to the worksheet name used in this analysis.
+- **Potential exhibitors** are prospects considered for exhibitor outreach. The workbook also covers potential strategic partners, and the analysis does not establish a separate exhibitor count.
+- **Confirmed attendees** require separate participation records. The campaign materials report participation confirmations, but the prospect workbook cannot confirm those claims or show who actually attended.
+- The category counts describe research coverage. The workbook does not establish market demand or outreach outcomes, and the available files do not document a consistent scoring rule for the relevance field.
+
+## Simulated Portfolio Extension | Measuring Exhibitor Interest
 
 **Business question** — Among sessions that reach the Products page, what share reach the stand options and then click the lower WhatsApp button?
 
@@ -51,9 +80,4 @@ In a possible GA4 implementation, count each step once per session and require t
 
 <img src="images/02-simulated-stand-interest-funnel.png" alt="Simulation only. Of 100 fictional sessions, 60 reach the stand options and 18 click the lower WhatsApp button. The step-to-step rates are 60 percent and 30 percent." width="800">
 
-The example uses **simulated data** throughout. Of 100 fictional sessions, 60 reach the stand options and 18 click the lower button. That gives step-to-step rates of **60%** and **30%**, and an overall click rate of **18%**. If verified event data showed a similar pattern, I would compare the journey by device before testing whether moving the button closer to the stand options helped.
-
-## Sources and Limitations
-
-- The charts distinguish the Excel-based prospect counts from the fictional website sessions. Only aggregate workbook counts are included. The campaign report and presentation provide context. Confirming their account or participation totals would require the underlying records.
-- The proposed events illustrate how the fair could measure website interest. GA4 implementation and observed funnel performance remain future work.
+The example uses **simulated data** throughout. Of 100 fictional sessions, 60 reach the stand options and 18 click the lower button. That gives step-to-step rates of **60%** and **30%**, and an overall click rate of **18%**. If verified event data showed a similar pattern, I would compare the journey by device before testing whether moving the button closer to the stand options helped. GA4 implementation and observed funnel performance remain future work.
